@@ -1,0 +1,3 @@
+DJoin /Provision /Domain networkat.local /Machine pc1 /SaveFile c:\join.txt  //this order in the server pc
+
+DJoin /RequestODJ /LoadFile c:\join.txt /WindowsPath %windir% /LocalOS       //this order in the windos pc
